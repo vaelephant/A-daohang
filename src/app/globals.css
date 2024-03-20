@@ -13,6 +13,10 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --text-color-light: #000000; /* 浅色模式文字颜色 */
+    --text-color-dark: #000000; /* 初始化为黑色，以防浏览器不支持深色模式 */
+    /* //闫志明添加20240320 */
+    --text-color-dark: #FFFFFF; /* 深色模式文字颜色 */   
   }
 }
 
