@@ -25,8 +25,7 @@ export default function Home() {
           height={37}
           priority
         /> */}
-        {/* <svg width="300" height="350" xmlns="http://www.w3.org/2000/svg"><text x="50%" y="50%" font-size="36" fill="#FFFFFF" font-family="system-ui, sans-serif" text-anchor="middle" dominant-baseline="middle">RTFchain</text></svg> */}
-        <svg width="300" height="350" xmlns="http://www.w3.org/2000/svg">
+         <svg width="300" height="350" xmlns="http://www.w3.org/2000/svg">
           <style>
             {`.textColor { fill: var(--text-color-light); } @media (prefers-color-scheme: dark) { .textColor { fill: var(--text-color-dark); } }`}
           </style>
