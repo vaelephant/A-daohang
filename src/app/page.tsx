@@ -29,7 +29,7 @@ export default function Home() {
           <style>
             {`.textColor { fill: var(--text-color-light); } @media (prefers-color-scheme: dark) { .textColor { fill: var(--text-color-dark); } }`}
           </style>
-          <text x="50%" y="50%" font-size="36" class="textColor" font-family="system-ui, sans-serif" text-anchor="middle" dominant-baseline="middle">RTFchain</text>
+          <text x="50%" y="50%" font-size="36" class="textColor" font-family="system-ui, sans-serif" text-anchor="middle" dominant-baseline="middle">积沙成塔 集腋成裘</text>
         </svg>
 
 
@@ -37,36 +37,38 @@ export default function Home() {
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
+        // 修改这个链接地址
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Secure storage{" "}
+            用户数据上传{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            用上传首页+功能页
           </p>
         </a>
 
         <a
+        // 修改这个链接地址
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Value mining{" "}
+            管理系统{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Learn about course with&nbsp;quizzes!
           </p>
         </a>
 
@@ -77,13 +79,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Data rights confirmation{" "}
+            其它系统地址{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
+            Explore starter templates 
           </p>
         </a>
 
@@ -94,13 +96,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Easy to circulate{" "}
+          其它系统地址{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Instantly deploy your site to a shareable URL with Vercel.
           </p>
         </a>
       </div>
